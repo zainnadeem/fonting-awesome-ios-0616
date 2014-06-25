@@ -1,4 +1,7 @@
-# 2/26/14
+---
+tags: views, intro, cocoapods
+language: objc
+---
 
 #Fonting Awesome!
 
