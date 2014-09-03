@@ -1,0 +1,41 @@
+PODS:
+  - CWStatusBarNotification (2.1.1)
+  - Expecta (0.2.4)
+  - FontAwesomeKit (2.1.7):
+    - FontAwesomeKit/Core
+    - FontAwesomeKit/FontAwesome
+    - FontAwesomeKit/FoundationIcons
+    - FontAwesomeKit/IonIcons
+    - FontAwesomeKit/Zocial
+  - FontAwesomeKit/Core (2.1.7)
+  - FontAwesomeKit/FontAwesome (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.7):
+    - FontAwesomeKit/Core
+  - KIF (3.0.7):
+    - KIF/XCTest
+  - KIF/XCTest (3.0.7)
+  - Specta (0.2.1)
+  - Swizzlean (0.1.2)
+
+DEPENDENCIES:
+  - CWStatusBarNotification (~> 2.1.1)
+  - Expecta (~> 0.2.4)
+  - FontAwesomeKit (~> 2.1.0)
+  - KIF (~> 3.0)
+  - Specta (~> 0.2.1)
+  - Swizzlean (~> 0.1.1)
+
+SPEC CHECKSUMS:
+  CWStatusBarNotification: 90989a73615aceb90c2da393d926ab76d8ea6a6d
+  Expecta: 112bcafa2304ee0f3c5e586505f24555a47b25d5
+  FontAwesomeKit: af6eef70d23986349284d2feb4e959459621587d
+  KIF: 685ab7b49c1092732b7cb3106cc957366b01e225
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  Swizzlean: e389af392d2e1bc79757f00c195eddc2a94fdf20
+
+COCOAPODS: 0.33.1
