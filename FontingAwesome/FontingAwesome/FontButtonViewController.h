@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FontButtonViewController.h
 //  FontingAwesome
 //
 //  Created by Chris Gonzales on 9/3/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FontButtonViewController : UIViewController
 
 @end

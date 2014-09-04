@@ -16,13 +16,13 @@
 		722EF30919B7D446006B6C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 722EF30819B7D446006B6C38 /* main.m */; };
 		722EF30D19B7D446006B6C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722EF30C19B7D446006B6C38 /* AppDelegate.m */; };
 		722EF31019B7D446006B6C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722EF30E19B7D446006B6C38 /* Main.storyboard */; };
-		722EF31319B7D446006B6C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722EF31219B7D446006B6C38 /* ViewController.m */; };
 		722EF31519B7D446006B6C38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722EF31419B7D446006B6C38 /* Images.xcassets */; };
 		722EF31C19B7D446006B6C38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722EF31B19B7D446006B6C38 /* XCTest.framework */; };
 		722EF31D19B7D446006B6C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722EF2FC19B7D446006B6C38 /* Foundation.framework */; };
 		722EF31E19B7D446006B6C38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722EF30019B7D446006B6C38 /* UIKit.framework */; };
 		722EF32619B7D446006B6C38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 722EF32419B7D446006B6C38 /* InfoPlist.strings */; };
 		722EF32819B7D446006B6C38 /* FontingAwesomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722EF32719B7D446006B6C38 /* FontingAwesomeTests.m */; };
+		7252FD8719B7D76000313B36 /* FontButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7252FD8619B7D76000313B36 /* FontButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,14 +49,14 @@
 		722EF30B19B7D446006B6C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		722EF30C19B7D446006B6C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		722EF30F19B7D446006B6C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		722EF31119B7D446006B6C38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		722EF31219B7D446006B6C38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		722EF31419B7D446006B6C38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		722EF31A19B7D446006B6C38 /* FontingAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontingAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		722EF31B19B7D446006B6C38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		722EF32319B7D446006B6C38 /* FontingAwesomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontingAwesomeTests-Info.plist"; sourceTree = "<group>"; };
 		722EF32519B7D446006B6C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		722EF32719B7D446006B6C38 /* FontingAwesomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontingAwesomeTests.m; sourceTree = "<group>"; };
+		7252FD8519B7D76000313B36 /* FontButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontButtonViewController.h; sourceTree = "<group>"; };
+		7252FD8619B7D76000313B36 /* FontButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontButtonViewController.m; sourceTree = "<group>"; };
 		DAB1375D6F984E2DB7635691 /* libPods-FontingAwesomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontingAwesomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2078DE031864E4FB87714B8 /* Pods-FontingAwesomeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingAwesomeTests.xcconfig"; path = "Pods/Pods-FontingAwesomeTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +127,8 @@
 				722EF30B19B7D446006B6C38 /* AppDelegate.h */,
 				722EF30C19B7D446006B6C38 /* AppDelegate.m */,
 				722EF30E19B7D446006B6C38 /* Main.storyboard */,
-				722EF31119B7D446006B6C38 /* ViewController.h */,
-				722EF31219B7D446006B6C38 /* ViewController.m */,
+				7252FD8519B7D76000313B36 /* FontButtonViewController.h */,
+				7252FD8619B7D76000313B36 /* FontButtonViewController.m */,
 				722EF31419B7D446006B6C38 /* Images.xcassets */,
 				722EF30319B7D446006B6C38 /* Supporting Files */,
 			);
@@ -328,8 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722EF31319B7D446006B6C38 /* ViewController.m in Sources */,
 				722EF30D19B7D446006B6C38 /* AppDelegate.m in Sources */,
+				7252FD8719B7D76000313B36 /* FontButtonViewController.m in Sources */,
 				722EF30919B7D446006B6C38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
