@@ -1,15 +1,21 @@
 
 
-#Fonting Awesome!
+# Fonting Awesome!
 
-## Instructions: Let's play with a few CocoaPods
+## Objectives
+
+1. Create an Xcode project.
+2. Install third party frameworks using the Cocoapods Dependency Manager.
+
+## Instructions
+
   1. Make a new single view project
-  2. Add the [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit) pod.
-    - In the root (top level) of your Xcode project folder, create a new file called Podfile
-    - go to the **FontAwesomeKit** github page and find the section called **Installing with Cocoapods (Strongly Recommended)**
-    - it should tell you to add `pod 'FontAwesomeKit', '~> 2.1.0'` to your Podfile. Then save and exit
-    - in the root of your directory, type `pod install` as a terminal command. This will download and install the cocoapods you list in your Podfile into your project
-    - After that, you can use all the resources outlined in the FontAwesomeKit github page. Sections that will be of particular interest for you to get started will be **Importing Headers** and **Example Usage**
-  3. FontAwesomeKit creates `NSAttributedString` with the `attributedString` method. To assign an attributedString to a UIButton title you need to use the `setAttributedTitle:forState:` method
-  4. One more! Let's add a really awesome CocoaPod (following the same install steps detailed above) called [CWStatusBarNotification](https://github.com/cezarywojcik/CWStatusBarNotification) that allows you to put quick notifications in the statusbar while users are using your app. I've used it a lot to give unobtrusive notifications throughout my app for things like updated data or incorrect form entries.
-  5. Follow the readme on the github page, it's really good.
+  2. Add the [FontAwesomeKit](https://cocoapods.org/pods/FontAwesomeKit) pod.
+    - In your Xcode project's folder, enter the command `pod init`. This will generate an empty Podfile and an `.xcworkspace` for the project (which you should use from now on).
+    - Go to **FontAwesomeKit**'s documentation page and find the section called **Installing with Cocoapods (Strongly Recommended)**. It should tell you to add `pod 'FontAwesomeKit', '~> 2.2.0'` to your project target in the Podfile. (You may edit the Podfile using Sublime or Xcode). Then save and exit.
+    - In terminal, enter the `pod install` command. This will download and install the Cocoapod you listed in the Podfile into the Pods project which is visible to the xcworkspace.
+    - After that, your project will have access to all of the functionality of FontAwesomeKit. Its capabilities are outlined in their documentation page. The sections that are of particular interest for getting started will be **Importing Headers** and **Example Usage**.
+  3. FontAwesomeKit creates an `NSAttributedString` with the `attributedString` method. To assign an attributedString to a UIButton title you need to use the `setAttributedTitle:forState:` method.
+  * Add a button in the center of the view controller's canvas. At run time, make its title display an icon that you like from the FontAwesomeKit framework.
+  4. Add another really awesome CocoaPod called [CWStatusBarNotification](https://cocoapods.org/pods/CWStatusBarNotification) by following the same installation steps detailed above. The framework makes it easy to put quick notifications in the iPhone's status bar. It's great for giving unobtrusive notifications to your user for things like updated data or incorrect form entries.
+  5. Use CWStatusBarNotification's documentation to figure out how to tell your user that they are pressing (and holding) the button that has an awesome font.
