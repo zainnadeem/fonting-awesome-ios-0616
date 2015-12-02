@@ -20,3 +20,4 @@
     * When the button is pressed, it should show a different icon from the FontAwesomeKit framework.
   4. Add another really awesome CocoaPod called [CWStatusBarNotification](https://cocoapods.org/pods/CWStatusBarNotification) by following the same installation steps detailed above. The framework makes it easy to put quick notifications in the iPhone's status bar. It's great for giving unobtrusive notifications to your user for things like updated data or incorrect form entries.
   5. Use CWStatusBarNotification's documentation to figure out how to tell your user that they are pressing (and holding) the button that has an awesome font.
+<a href='https://learn.co/lessons/fonting-awesome' data-visibility='hidden'>View this lesson on Learn.co</a>
